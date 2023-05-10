@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className={styled.NavBar}>
 
         <li>
-          <Link to="/">LUCAS G</Link>
+          <Link to="/">LUCAS.G</Link>
         </li>
         <li>
           <Link to="/">SOBRE MI</Link>
