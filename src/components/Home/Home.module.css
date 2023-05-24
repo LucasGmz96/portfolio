@@ -9,5 +9,13 @@
   );
   }
   
+  .progressbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 16px;
+    background-color: #007bff;
+    transition: width 0.3s;
+  }
 
   
