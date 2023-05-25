@@ -1,0 +1,22 @@
+.Container{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: -11px;
+    height: 500px;
+}
+
+.Text{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+.Img{
+    border-bottom: 5px solid black;
+    margin-top: -50px;
+    filter: drop-shadow(55px 30px 19px #000);
+    height: 400px;
+
+}

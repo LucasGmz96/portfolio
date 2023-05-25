@@ -1,5 +1,7 @@
 .Container {
     display: flex;
+    width: 100%;
+    height: 100vh;
     min-height: 100vh;
     background-image: linear-gradient(
     150deg,
@@ -7,6 +9,14 @@
     #495057,
     #212529
   );
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+  overflow-x: hidden;
+  }
+
+  .Home{
+    margin-left: 150px;
   }
   
   .progressbar {

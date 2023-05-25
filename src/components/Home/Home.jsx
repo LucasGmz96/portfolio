@@ -13,8 +13,9 @@ export default function Home() {
     <div className={styled.Container}>
       <NavBar/>
       
-      <h1>
+      <h1 className={styled.Home}>
         <Lucas/>
+       
         <About/>
         <Portfolio/>
         <Educacion/>
