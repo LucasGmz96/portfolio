@@ -8,7 +8,7 @@ function Lucas() {
       <img src={img} className={styled.Img} />
       <div className={styled.Text}>
         <h1>LUCAS GOMEZ</h1>
-        <span>BIENVENIDX A MI PORTFOLIO COMO DESARROLLADOR WEB </span>
+        <span>BIENVENIDO A MI PORTFOLIO COMO DESARROLLADOR WEB </span>
         <p>"Siempre sigo aprendiendo, sumergiéndome en líneas de código, resolviendo desafíos y construyendo."</p>
       </div>
     </div>
