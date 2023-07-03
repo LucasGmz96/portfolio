@@ -1,15 +1,25 @@
 import React from 'react'
 import styled from './Lucas.module.css'
-import img from '../../../img/FOTOPERFIL.png'
+import {Link} from "react-router-dom"
+
+
+
 
 function Lucas() {
+
+
+
+
   return (
     <div className={styled.Container}>
-      <img src={img} className={styled.Img} />
+
       <div className={styled.Text}>
         <h1>LUCAS GOMEZ</h1>
-        <span>BIENVENIDO A MI PORTFOLIO COMO DESARROLLADOR WEB </span>
+        <span>Bienvenido a Mi Portafolio Como Desarrollador Web </span>
         <p>"Siempre sigo aprendiendo, sumergiéndome en líneas de código, resolviendo desafíos y construyendo."</p>
+        <Link to="https://drive.google.com/file/d/10QtH5yh8t8RaOgoqpw0E731McpM5ZG3y/view?usp=sharing"className={styled.Link} >Mira mi CV</Link>
+
+
       </div>
     </div>
   )

@@ -4,6 +4,10 @@
     justify-content: space-between;
     margin-left: -11px;
     height: 500px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    padding: 50px;
 }
 
 .Text{
@@ -13,10 +17,18 @@
     flex-direction: column;
 }
 
-.Img{
-    border-bottom: 5px solid black;
-    margin-top: -50px;
-    filter: drop-shadow(55px 30px 19px #000);
-    height: 400px;
-
+.Link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border: 3px solid   black;
+    border-radius: 10px ;
+    padding: 5px; 
+    background-color: #99a0a6;
+    position: inherit;
 }
+
+.Link:hover{
+    transition: 1.5s;
+    color: lightblue
+  }

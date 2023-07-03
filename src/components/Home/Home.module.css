@@ -13,10 +13,12 @@
   background-size: cover;
   background-attachment:fixed;
   overflow-x: hidden;
+  Font-family: Consolas
+
   }
 
   .Home{
-    margin-left: 150px;
+    margin-left: 200px;
   }
   
   .progressbar {
