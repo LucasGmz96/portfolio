@@ -1,0 +1,41 @@
+.container{
+
+    display: flex;
+
+    flex-direction: column;
+    margin-left: -11px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    padding: 50px;
+
+}   
+
+.h4{
+    color: lightblue;
+}
+
+.description{
+    font-size: 1.4rem;
+
+}
+
+.about{
+    font-size: 1.5rem;
+    color: lightblue;
+}
+
+.link{
+    font-size: 1.4rem;
+
+}
+
+.correo{
+    font-size: 1.4rem;
+    
+}
+
+.href{
+    text-decoration: none;
+}
+

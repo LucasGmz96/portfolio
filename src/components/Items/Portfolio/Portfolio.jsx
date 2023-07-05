@@ -1,8 +1,12 @@
 import React from 'react'
+import styled from './Portfolio.module.css'
+
 
 function Portfolio() {
   return (
-    <div>Portfolio</div>
+    <div className={styled.container}>
+      Portfolio
+    </div>
   )
 }
 

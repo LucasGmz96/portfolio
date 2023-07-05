@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin-left: -11px;
-    height: 500px;
+    min-width: 200px;
     border: 1px solid black;
     margin-right: 50px;
     margin-bottom: 150px;
@@ -30,5 +30,5 @@
 
 .Link:hover{
     transition: 1.5s;
-    color: lightblue
+    background-color: lightblue
   }
