@@ -1,8 +1,9 @@
 import React from 'react'
+import styled from './Educacion.module.css'
 
 function Educacion() {
   return (
-    <div>Educacion</div>
+    <div className={styled.container}>Educacion</div>
   )
 }
 

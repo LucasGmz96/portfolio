@@ -11,6 +11,7 @@ import Contacto from '../Items/Contacto/Contacto';
 export default function Home() {
   return (
     <div className={styled.Container}>
+     
       <NavBar/>
       
       <h1 className={styled.Home}>
@@ -21,7 +22,7 @@ export default function Home() {
         <Skills/>
         <Contacto/>
       </h1>
-
+    
     </div>
   );
 }
