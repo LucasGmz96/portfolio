@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from './Portfolio.module.css'
-
+import Card from '../Card/Card.jsx'
 
 function Portfolio() {
 
@@ -18,15 +18,39 @@ let proyectos = [{
   url_deploy : 'https://google.com',
   skills: "Javascript, React, Redux, Vite, y mas ",
   imagen: "imagen",
-  descripcion
-}]
+  descripcion:"Esta fue mi segunda app web, este proyecto es un desarrollo fullstack en javascript, el front-end lo construi utilizando react y redux, y en el back-end utilice express.js, node.js, sequelize y por ultimo postgresSQL para la base de datos."
+},
+{
+  nombre: "Rick & Morty",
+  url_git: 'https://github.com/LucasGmz96/Integraci-n-RickAndMorty',
+  url_deploy : 'https://google.com',
+  skills: "Javascript, React, Redux, Vite, y mas ",
+  imagen: "imagen",
+  descripcion:"Esta fue mi primera app web, consiste en consumir una api de rick and morty y mostar cartas de los personajes. Tiene formulario controlado, filtros, search y paginado "
+}
+]
 
 
 
 
   return (
     <div className={styled.container}>
-      Portfolio
+      <h4>
+        Portafolio
+      </h4>
+      <div>
+      {
+        proyectos.map((e)=>(
+          <Card
+            nombre={e.nombre}
+            url_git={e.url_git}
+            url_deploy= {e.url_deploy}
+            skills={e.skills}
+            imagen={e.imagen}
+            descripcion={e.descripcion}
+          />
+        ))}
+      </div>
     </div>
   )
 }
