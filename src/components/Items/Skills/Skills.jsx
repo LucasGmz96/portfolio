@@ -3,7 +3,20 @@ import styled from './Skills.module.css'
 
 function Skills() {
   return (
-    <div className={styled.container}>Skills</div>
+    <div className={styled.container}>
+      <h4>Skills</h4>
+      <ul>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Express</li>
+        <li>PostgreSQL</li>
+        <li>Sequelize</li>
+        <li>Git</li>
+        <li>Github</li>
+      </ul>
+    </div>
   )
 }
 
