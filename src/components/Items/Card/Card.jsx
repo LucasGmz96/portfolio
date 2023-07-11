@@ -13,7 +13,7 @@ const Card = ({nombre, url_git, url_deploy, skills, imagen, descripcion})=>{
 
       
     return(
-        <div className={styled.cardDiv}>
+        <div className={styled.container}>
             
             <h3 className={styled.nombre}>{nombre}</h3>
             <Link to={`${url_git}`}>Git</Link>

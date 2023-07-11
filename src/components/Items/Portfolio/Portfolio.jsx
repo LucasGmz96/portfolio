@@ -12,7 +12,7 @@ let proyectos = [{
   imagen: "imagen",
   descripcion: "Diseñar y desarrollar una App médica que incluía: autenticación con Auth0, búsquedas, filtrados combinados, ordenamientos, baneo de usuarios, envío de emails, pago de servicios con api de Mercado Pago, dashboards de paciente, administrador y médico. En este proyecto participé como back-end. Trabaje en la creacion de modelos en sequelize con sus respectivas relaciones para el manejo y almacenamiento de la informacion. Tambien el manejo de la informacion del usuario y las especialidades de la clinica, como tambien participe en armado de la logica de la gestion de los turnos.",
 },
-{
+/*{
   nombre: "Dogs",
   url_git: 'https://github.com/LucasGmz96/Pi-Dogs',
   url_deploy : 'https://google.com',
@@ -27,7 +27,7 @@ let proyectos = [{
   skills: "Javascript, React, Redux, Vite, y mas ",
   imagen: "imagen",
   descripcion:"Esta fue mi primera app web, consiste en consumir una api de rick and morty y mostar cartas de los personajes. Tiene formulario controlado, filtros, search y paginado "
-}
+}*/
 ]
 
 
@@ -35,10 +35,10 @@ let proyectos = [{
 
   return (
     <div className={styled.container}>
-      <h4>
+      <h3 className={styled.h4}>
         Portafolio
-      </h4>
-      <div>
+      </h3>
+      <div className={styled.card}>
       {
         proyectos.map((e)=>(
           <Card
