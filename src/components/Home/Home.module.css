@@ -1,3 +1,19 @@
+.Container {
+  margin: 0;
+  background-image : url(../../file/exagonos.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+  Font-family: Consolas;
+  
+  }
+
+
+
+
+
+
+/* 
 
 
 .Container {
@@ -32,4 +48,4 @@
     transition: width 0.3s;
   }
 
-  
+   */

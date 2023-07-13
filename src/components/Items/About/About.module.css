@@ -1,16 +1,20 @@
 .container{
 
     display: flex;
-
     flex-direction: column;
-    margin-left: -11px;
-    border: 1px solid black;
-    margin-right: 50px;
-    margin-bottom: 150px;
-    padding: 50px;
-    
-
+    min-width: 200px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
 }   
+
+@media (max-width:900px){
+    .container{
+        margin: 10px;
+    }
+}
 
 .h4{
     color: lightblue;
