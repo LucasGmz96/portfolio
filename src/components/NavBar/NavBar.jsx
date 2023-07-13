@@ -4,23 +4,32 @@ import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 
 export default function NavBar() {
-
+  const [isChecked, setIsChecked] = useState(false);
 
   const titulo = "<id=Lucas.G/>"
 
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
 
   return (
     <div > 
       <nav className={styled.container}>
         <div className={styled.title}>
-          <input type="checkbox" id='check' className={styled.checkbox}/>
+        <input
+            type="checkbox"
+            id="check"
+            className={styled.checkbox}
+            checked={isChecked}
+            onChange={handleCheckboxChange}
+          />
           <label htmlFor="check" className={styled.icon}> <FaBars/> </label>
           <h1 className={styled.h1}>{titulo}</h1>
         </div>
 
     
 
-          <ul className={styled.ul}>
+        <ul className={`${styled.ul} ${isChecked ? styled.checkedUl : ''}`}>
               <li>
                 <Link className={styled.Items} to="/">SOBRE MI</Link>
               </li>
