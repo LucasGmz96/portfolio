@@ -46,8 +46,8 @@ let proyectos = [{
             url_git={e.url_git}
             url_deploy= {e.url_deploy}
             skills={e.skills}
-            imagen={e.imagen}
             descripcion={e.descripcion}
+            imagen={e.imagen}
           />
         ))}
       </div>
