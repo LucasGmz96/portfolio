@@ -9,8 +9,19 @@ import { AiOutlineGlobal } from 'react-icons/ai';
 
 
 
+
 const Card = ({nombre, url_git, url_deploy, skills, imagen, descripcion})=>{
 
+
+    function mostrar() {
+     document.getElementById("mostrar").style.display = "block";
+     document.getElementById("butonM").style.display = "none";
+
+    }
+    function ocultar() {
+     document.getElementById("mostrar").style.display = "none";
+     document.getElementById("butonM").style.display = "block";
+    }
     
 
       
@@ -22,7 +33,16 @@ const Card = ({nombre, url_git, url_deploy, skills, imagen, descripcion})=>{
             <img src={imagen} className={styled.img}/>
             <Link to={`${url_git}`}><BsGit/></Link>
             <Link to={`${url_deploy}`}><AiOutlineGlobal/></Link>
-            <h3 className={styled.descripcion}>{descripcion}</h3>
+
+
+
+            <button id="butonM" style={{display:"block"}} onClick={mostrar}>Mostrar Mas</button>
+            <div id="mostrar" style={{display:"none"}} className={styled.mostrar}>
+                <h3 className={styled.descripcion}>{descripcion}</h3>
+                <button id="butonO" onClick={ocultar}>Mostrar Menos</button>
+            </div>
+
+
         </div>
 )
 }

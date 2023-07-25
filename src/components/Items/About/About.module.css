@@ -22,7 +22,7 @@
 
 .description{
     font-size: 1.4rem;
-
+    color: grey ;
 }
 
 .about{
@@ -32,12 +32,12 @@
 
 .link{
     font-size: 1.4rem;
-
+    color: grey ;
 }
 
 .correo{
     font-size: 1.4rem;
-    
+    color: grey ;
 }
 
 .href{
