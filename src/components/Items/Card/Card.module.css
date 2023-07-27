@@ -1,17 +1,23 @@
 .container{
     display: flex;
     margin: 30px;
-    border: 3px solid ;
+
     flex-direction: column;
-    width: 650px;
-    backdrop-filter: blur(100px);
+    width: 1050px;
+    background-color: rgba(30, 30, 30, 0.818);
     border-radius: 5px;
     text-decoration: none;
-    box-shadow: 0px 1px 10px rgba(0,0,0.2);
+    box-shadow: 0px 0px 0px rgba(0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
     flex:wrap
 }
+
+@media(max-width:975px){
+  .container{
+    width:auto
+  }
+  }
 
 
 .container a{
@@ -20,14 +26,13 @@
 }
 
 .container:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translate(-1%);
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.4);
 }
 
 .nombre{
     justify-content: center;
     color:lightblue
-}
+}   
 
 
 
@@ -72,4 +77,43 @@
 
 .descripcion{
     color: grey ;
+    font-size: 25px;
+}
+
+.buton{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.mostrar{
+        color: black;
+        border: 3px solid   black;
+        border-radius: 10px ;
+        padding: 5px; 
+        background-color: #99a0a6;
+        width: 150px;
+        font-size: 18px;
+}
+
+.divOcultar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ocultar{
+    color: black;
+    border: 3px solid   black;
+    border-radius: 10px ;
+    padding: 5px; 
+    background-color: #99a0a6;
+    width: 150px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+
+
 }

@@ -7,7 +7,7 @@
     border-radius: 10px;
     margin: 40px;
     padding: 20px;
-    backdrop-filter: blur(5px);
+    background-color: rgba(18, 18, 18, 0.818);
 }   
 
 @media (max-width:900px){

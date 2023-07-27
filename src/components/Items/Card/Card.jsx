@@ -29,17 +29,24 @@ const Card = ({nombre, url_git, url_deploy, skills, imagen, descripcion})=>{
         <div className={styled.container}>
             
             <h3 className={styled.nombre}>{nombre}</h3>
+
             <h3 className={styled.skills}>Skills:{skills}</h3>
+
             <img src={imagen} className={styled.img}/>
-            <Link to={`${url_git}`}><BsGit/></Link>
-            <Link to={`${url_deploy}`}><AiOutlineGlobal/></Link>
+            <div className={styled.buton}>
+                <div>
+                    <Link to={`${url_git}`}><BsGit/></Link>
+                    <Link to={`${url_deploy}`}><AiOutlineGlobal/></Link>
+                </div>
+        
+                <button id="butonM" style={{display:"block"}} onClick={mostrar} className={styled.mostrar}>Mostrar Mas</button>
 
-
-
-            <button id="butonM" style={{display:"block"}} onClick={mostrar}>Mostrar Mas</button>
-            <div id="mostrar" style={{display:"none"}} className={styled.mostrar}>
-                <h3 className={styled.descripcion}>{descripcion}</h3>
-                <button id="butonO" onClick={ocultar}>Mostrar Menos</button>
+                <div id="mostrar" style={{display:"none"}} className={styled.divOcultar} >
+                    <h3 className={styled.descripcion}>{descripcion}</h3>
+                    <>
+                    <button id="butonO" onClick={ocultar} className={styled.ocultar}>Mostrar Menos</button>
+                    </>
+                </div>
             </div>
 
 
