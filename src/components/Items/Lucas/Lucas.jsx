@@ -11,7 +11,7 @@ function Lucas() {
 
 
   return (
-    <div className={styled.Container}>
+    <div className={styled.Container} id='lucas'>
 
       <div className={styled.Text}>
         <h1 className={styled.name}>LUCAS GOMEZ</h1>

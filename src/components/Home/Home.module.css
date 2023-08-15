@@ -5,7 +5,8 @@
   background-size: cover;
   background-attachment:fixed;
   Font-family: Consolas;
-  
+  display: flex;
+  flex-direction:column;
   }
 
 

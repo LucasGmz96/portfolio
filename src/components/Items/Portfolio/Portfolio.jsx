@@ -63,7 +63,7 @@ let map =proyectos.map((e)=>(
 
 
   return (
-    <div className={styled.container}>
+    <div className={styled.container} id='portfolio'>
       <h3 className={styled.h4}>
         Portafolio
       </h3>

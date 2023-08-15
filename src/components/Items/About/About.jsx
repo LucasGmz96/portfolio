@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function About() {
   return (
-    <div className={styled.container}>
+    <div className={styled.container} id="about">
       <h4 className={styled.h4}>SOBRE MI</h4>
       <p className={styled.description}>
         Desde chico siempre me intereso el mundo de la informática y la programacion. Hasta que al fin decidí estudiar lo que siempre soñé!
