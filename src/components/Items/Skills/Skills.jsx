@@ -4,8 +4,8 @@ import styled from './Skills.module.css'
 function Skills() {
   return (
     <div className={styled.container} id='skills'>
-      <h4>Skills</h4>
-      <ul>
+      <h4 className={styled.h4}>Skills</h4>
+      <ul className={styled.ul}>
         <li>JavaScript</li>
         <li>Node.js</li>
         <li>React</li>

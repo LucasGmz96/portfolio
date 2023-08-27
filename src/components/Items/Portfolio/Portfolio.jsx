@@ -69,7 +69,7 @@ let map =proyectos.map((e)=>(
       </h3>
       <div className={styled.paginado}>
 
-      <div onClick={()=>currentPage <= 1 ? paginado(cantidadPage): paginado(currentPage - 1 )}><FaArrowLeft /></div>
+      <div onClick={()=>currentPage <= 1 ? paginado(cantidadPage): paginado(currentPage - 1 )} className={styled.flechas}><FaArrowLeft /></div>
         
         <div className={styled.card}> { pageProyect.map((e)=>(
         <Card
@@ -81,7 +81,7 @@ let map =proyectos.map((e)=>(
         imagen={e.imagen}
           />))} </div>
 
-        <div onClick={()=>currentPage >= cantidadPage ? paginado(1): paginado(currentPage + 1 )}><FaArrowRight /></div>
+        <div onClick={()=>currentPage >= cantidadPage ? paginado(1): paginado(currentPage + 1 )} className={styled.flechas}><FaArrowRight /></div>
        
       </div>    
     </div>

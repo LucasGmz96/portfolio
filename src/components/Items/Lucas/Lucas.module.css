@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-between;
     min-width: 200px;
-    border: 5px solid black;
+   /* border: 5px solid black;*/
     border-radius: 10px;
     margin: 80px 40px 40px 40px;
     padding: 20px;
-    background-color: rgba(18, 18, 18, 0.818);
+    /*background-color: rgba(74, 74, 74, 0.818);*/
 
 }
 
@@ -25,7 +25,7 @@
     align-items:flex-start;
     justify-content:space-between;
     flex-direction: column;
-    color: grey ;
+    color: rgb(184, 184, 184) ;
 }
 
 .Link{
