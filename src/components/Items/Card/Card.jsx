@@ -24,7 +24,7 @@ const Card = ({nombre, url_git, url_deploy, skills, imagen, descripcion})=>{
     }
     
 
-      
+        /* <img src={imagen} className={styled.img}/> */
     return(
         <div className={styled.container}>
             
@@ -32,7 +32,7 @@ const Card = ({nombre, url_git, url_deploy, skills, imagen, descripcion})=>{
 
             <h3 className={styled.skills}>Skills:{skills}</h3>
 
-            <img src={imagen} className={styled.img}/>
+         
             <div className={styled.buton}>
                 <div>
                     <Link to={`${url_git}`}><BsGit/></Link>
